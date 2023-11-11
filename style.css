@@ -1,0 +1,11 @@
+.bodyof {
+  background-color: aquamarine;
+}
+
+input {
+  padding: 5px;
+  width: 250px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: white;
+}

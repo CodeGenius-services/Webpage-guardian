@@ -1,0 +1,41 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="bootstrap.css" />
+</head>
+
+<body class="bodyof">
+  <center>
+    <div class="container my-4">
+      <h1>Login to your account</h1>
+      <form>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label><br />
+          <input type="text" id="email" aria-describedby="emailHelp" />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <br /><input type="password" id="password" />
+        </div>
+        <button onclick="signin()" type="submit" class="btn btn-primary">
+          Login
+        </button>
+        <p></p>
+        <a href="signup.html">if you don't have account then Sign Up</a>
+      </form>
+    </div>
+    <script src="d:\Internship\task_1\index.js"></script>
+  </center>
+</body>
+
+</html>
